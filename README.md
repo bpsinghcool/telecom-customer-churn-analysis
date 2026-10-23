@@ -45,7 +45,7 @@ The data is synthetic, so the patterns show association, not proven cause. KPI c
 - `Customer_Churn_Analysis.xlsx`: full workbook (cleaning log, pivots, dashboard)
 - `customer_churn_sample.csv`: raw dataset
 - `dashboard_screenshot.png`: dashboard preview
-- `Project 1.png`: linkedin post preview
+- `Project_1.png`: linkedin post preview
 
 ![LINKEDINPOST](Project_1.png)
 
