@@ -45,4 +45,6 @@ The data is synthetic, so the patterns show association, not proven cause. KPI c
 - `customer_churn_sample.csv`: raw dataset
 - `dashboard_screenshot.png`: dashboard preview
 
+![Dashboard](Project 1.png)
+
 Prepared by Birpal Singh | linkedin.com/in/BirpalSingh
