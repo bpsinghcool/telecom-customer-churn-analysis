@@ -8,14 +8,14 @@ Analysis of customer churn in a synthetic telecom dataset (5,030 raw rows, 5,000
 Note: the dataset is synthetic and contains no real customer information.
 
 ## Tools Used
-Excel: Excel Table, Pivot Tables, PivotCharts, Slicers, formulas (COUNTA, COUNTIF, AVERAGE, IF), TRIM, Remove Duplicates
+Excel: Excel Table, Pivot Tables, PivotCharts, Slicers, formulas (COUNTA, COUNTIF, AVERAGE, IF, COUNTIFS, SUMIFS), TRIM, Remove Duplicates
 
 ## Data Cleaning
 - Removed 30 duplicate rows
 - Filled 58 blank TotalCharges with 0 as a placeholder (28 are new customers with tenure 0, 30 are not; TotalCharges is not used in the analysis)
 - Fixed extra spaces in City and inconsistent capitalisation in InternetService
 - Set number/currency formats and converted the data to an Excel Table
-- Converted the data to an Excel Table and added two helper columns (MonthlyCharges_Band, RiskSegment, TenureGroup, ChurnFlag)
+- Converted the data to an Excel Table and added 4 helper columns (MonthlyCharges_Band, RiskSegment, TenureGroup, ChurnFlag)
 
 ## Key Findings
 - Overall churn is 32.3% (1,615 of 5,000 customers)
@@ -28,6 +28,7 @@ Excel: Excel Table, Pivot Tables, PivotCharts, Slicers, formulas (COUNTA, COUNTI
 - Customers paying above ₹70 a month churn at 38-41%, versus 25-28% for ₹70 or less
 - Churned customers represent ₹111,097 in monthly charges (₹13.3 lakh a year, assuming none are replaced)
 - Gender, partner, dependents, paperless billing and phone service show almost no difference
+- First-year month-to-month customers churn at 59.1% (1,006 customers, 36.8% of all churned customers); see Pivot 8 on the Analysis sheet.
 
 ## Recommendations
 - Offer discounts to move month-to-month customers to annual plans
@@ -46,6 +47,6 @@ The data is synthetic, so the patterns show association, not proven cause. KPI c
 - `dashboard_screenshot.png`: dashboard preview
 - `Project 1.png`: linkedin post preview
 
-![LINKEDINPOST](Project 1.png)
+![LINKEDINPOST](Project_1.png)
 
 Prepared by Birpal Singh | linkedin.com/in/BirpalSingh
