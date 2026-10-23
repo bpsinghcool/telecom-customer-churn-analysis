@@ -42,7 +42,7 @@ The data is synthetic, so the patterns show association, not proven cause. KPI c
 
 ## Files
 - `Customer_Churn_Analysis.xlsx`: full workbook (cleaning log, pivots, dashboard)
-- `data/customer_churn_sample.csv`: raw dataset
+- `customer_churn_sample.csv`: raw dataset
 - `dashboard_screenshot.png`: dashboard preview
 
 Prepared by Birpal Singh | linkedin.com/in/BirpalSingh
