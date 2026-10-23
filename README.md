@@ -63,12 +63,13 @@ Analysis of customer churn in a synthetic telecom dataset (**5,030 raw records �
 ---
 
 ## 📁 Repository Structure
+```text
 ├── Customer_Churn_Analysis.xlsx # Full interactive Excel dashboard & analysis
 ├── customer_churn_sample.csv # Raw sample dataset
 ├── dashboard_screenshot.png # Primary dashboard preview image
 ├── Project_1.png # Social media / LinkedIn promo asset
 └── README.md # Project documentation
-
+```
 ---
 
 ## 💻 How to View & Use
