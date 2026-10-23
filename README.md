@@ -49,4 +49,4 @@ The data is synthetic, so the patterns show association, not proven cause. KPI c
 
 ![LINKEDINPOST](Project_1.png)
 
-Prepared by Birpal Singh | [LinkedIn Profile](https://www.linkedin.com/in/BirpalSingh)
+Prepared by Birpal Singh | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/BirpalSingh)
