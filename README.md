@@ -14,19 +14,19 @@ Analysis of customer churn in a synthetic telecom dataset (**5,030 raw records �
 ## 🛠️ Tools & Techniques Used
 * **Tool:** Microsoft Excel
 * **Features Used:** Excel Tables, Pivot Tables, Pivot Charts, Interactive Slicers, KPI Cards
-* **Formulas & Functions:** `COUNTA`, `COUNTIF`, `AVERAGE`, `IF`, `TRIM`, Data Deduplication
+* **Formulas & Functions:** `COUNTA`, `COUNTIF`, `COUNTIFS`, `SUMIFS`, `AVERAGE`, `IF`, `TRIM`, Remove Duplicates
 
 ---
 
 ## 🧹 Data Cleaning & Preprocessing
 - **Duplicate Removal:** Identified and removed 30 duplicate customer rows.
-- **Missing Value Treatment:** Filled 58 blank `TotalCharges` with `0` as a placeholder (28 were new customers with tenure = 0 months).
+- **Missing Value Treatment:** Filled 58 blank TotalCharges with 0 as a placeholder (28 are new customers with tenure 0, 30 are not; TotalCharges is not used in the analysis).
 - **Text Standardization:** Applied `TRIM()` to remove extra spaces in `City` and corrected inconsistent capitalization in `InternetService`.
 - **Formatting:** Configured appropriate data types (Currency, Numbers, Text) and formatted raw data into a structured Excel Table.
 - **Feature Engineering:** Created **4 custom helper columns**:
   1. `TenureGroup` (Categorized customer lifespan)
   2. `MonthlyCharges_Band` (Price sensitivity brackets)
-  3. `RiskSegment` (High/Medium/Low risk classification)
+  3. `RiskSegment` (High-Risk, Others classification)
   4. `ChurnFlag` (Binary indicator for calculation)
 
 ---
@@ -49,7 +49,7 @@ Analysis of customer churn in a synthetic telecom dataset (**5,030 raw records �
 ## 💡 Strategic Recommendations
 
 1. 🏷️ **Annual Contract Incentives:** Offer targeted discounts to transition high-risk Month-to-Month customers into 1-year plans.
-2. 🚀 **First-90-Days Onboarding:** Establish a dedicated onboarding check-in program during the high-vulnerability first 6 months.
+2. 🚀 **First-Year Onboarding:** Set up check-ins during the first 6-12 months, when churn is highest.
 3. 🛠️ **Support Ticket Escalation:** Implement priority queueing for customers hitting 3+ support tickets to address friction points early.
 4. 🎁 **Value Bundling:** Free or discounted Tech Support & Online Security add-ons for first-year Fiber Optic users.
 5. 💳 **Plan Pricing Review:** Re-evaluate value perception for pricing tiers above ₹70/month.
@@ -75,7 +75,7 @@ Analysis of customer churn in a synthetic telecom dataset (**5,030 raw records �
 ## 💻 How to View & Use
 1. Download `Customer_Churn_Analysis.xlsx` from this repository.
 2. Open the file in Microsoft Excel (Excel 2016 or newer recommended).
-3. Interact with the **Slicers** on the main dashboard tab to filter data by Contract, Service, and Risk levels.
+3. Interact with the **Slicers** on the main dashboard tab to filter data by Gender, InternetService, and Contract.
 
 ---
 
